@@ -38,7 +38,7 @@ body{
 #portfolio_menu{
 	display: inline-block;
 	padding-top: 18px;
-	padding-left: 40px;
+	padding-left: 33px;
 	
 
 
@@ -49,11 +49,20 @@ body{
 .portfolio_link{
 
   text-decoration: none;
-  color: white;
-	
-
-	/*border-width: 1px;
-  border-color: rgb(197, 197, 197);
+  color: #666d89;
+  padding-right: 7px;
+	padding-left: 6px;
+	padding-bottom: 3px;
+	padding-top: 2px;
+	margin-left: 7px;
+	border-width: 1px;
+  border-color: #666d89;
   border-style: solid;
-  border-radius: 5px;*/
+  border-radius: 5px;
+
+}
+	
+.link_all{
+	color: white;
+	border-color: rgb(197, 197, 197);
 }
