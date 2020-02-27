@@ -38,19 +38,17 @@ body{
 #portfolio_menu{
 	display: inline-block;
 	padding-top: 18px;
-	padding-left: 33px;
-	
-
+	padding-left: 34px;
 
 	font-size: 12px;
 	font-family: Lato-Regular;
 }
 
 .portfolio_link{
-
+	
   text-decoration: none;
   color: #666d89;
-  padding-right: 7px;
+  padding-right: 6.5px;
 	padding-left: 6px;
 	padding-bottom: 3px;
 	padding-top: 2px;
@@ -68,7 +66,7 @@ body{
 }
 
 .portfolio_div_img{
-	padding-top: 20px;
+	padding-top: 22px;
 	padding-left: 40px;
 	padding-right: 40px;
 	display: grid;
@@ -76,6 +74,8 @@ body{
 	grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  max-height: 610px;
+  overflow: hidden;
 }
 
 #aboutus{
@@ -98,9 +98,43 @@ body{
 #aboutus_text{
 	display: block;
 	padding-left: 40px;
-	padding-top: 22.5px;
+	padding-top: 17px;
+	line-height: 30px;
+	word-spacing: 1px;
+
 
 	color: #767e9e;
 	font-size: 18px;
 	font-family: Lato-Light;
+}
+
+#aboutus_container{
+	padding-top: 45px;
+	padding-left: 40px;
+	padding-right: 40px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+
+/*.aboutus_people{
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+}*/
+
+.aboutus_name{
+	padding-left: -1px;
+	padding-top: 11px;
+	display: block;
+	color: #666d89;
+	font-size: 18px;
+	font-family: Lato-Black;
+}
+
+.aboutus_about{
+	display: block;
+	padding-top: 12px;
+	color: #666d89;
+	font-size: 12px;
+	font-family: Lato-Regular;
 }
