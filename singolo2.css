@@ -9,7 +9,7 @@ body{
 
 #portfolio{
 	height: 864px;
-	
+
 	background-color: #2d303a;
 	border-bottom: 6px #323746 solid;
 }
@@ -58,7 +58,16 @@ body{
   border-style: solid;
   border-radius: 5px;
 }
-	
+
+.portfolio_link:hover{
+	pointer: cursor;
+}
+
+.portfolio_link:active{
+	text-decoration: underline;
+	color: red;
+}
+
 .link_all{
 	color: white;
 
@@ -145,4 +154,13 @@ body{
 	padding-top: 24px;
 	grid-template-columns: repeat(4, 33px);
 	grid-column-gap: 7px;
+}
+
+.aboutus_icon_link:hover{
+	pointer: cursor;
+}
+
+.aboutus_icon_link:active{
+	text-decoration: underline;
+	color: red;
 }
