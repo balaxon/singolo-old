@@ -1,0 +1,35 @@
+body{
+	position: relative;
+
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 1020px;
+	margin: auto;
+	background-color: #f06c64;
+}
+
+#footer{
+	padding-top: 59px;
+	padding-left: 40px;
+}
+
+#footer_header{
+	display: block;
+	font-family: Lato-Black;
+	font-size: 30px;
+	color: #f0d8d9;
+}
+
+#footer_text{
+	display: block;
+	padding-top: 18px;
+	font-family: Lato-Light;
+	font-size: 18px;
+	color: #f0d8d9;
+	line-height: 30px;
+	word-spacing: 1px;
+}
+
+.asd{
+	display: block;
+}
