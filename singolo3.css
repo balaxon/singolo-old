@@ -30,6 +30,55 @@ body{
 	word-spacing: 1px;
 }
 
-.asd{
-	display: block;
+#footer_form{
+	padding-top: 28px;
+	display: inline-block;
+  max-width: 620px;
+}
+
+.footer_input{
+	outline: none;
+	margin-top: 16px;
+	height: 36px;
+	
+	border-radius: 5px;
+	width: 605px;
+	border: 0px;
+	background-color: #d6564f;
+	
+	padding-left: 15px;
+	font-size: 12px;
+	font-family: Lato-Regular;
+	color: #ffffff;
+}
+
+.footer_area{
+	height: 190px;
+	padding-top: 10px;
+	width: 603px;
+}
+
+.footer_input::-moz-placeholder{
+	color: #f48c8f;
+}
+
+.footer_input::-webkit-input-placeholder{
+	color: #f48c8f;
+}
+
+#footer_text_right{
+	font-family: Lato-Black;
+	font-size: 18px;
+}
+
+#footer_text_right_2{
+	font-family: Lato-Regular;
+	font-size: 12px;
+}
+
+#asdzxc{
+	color: #f0d8d9;
+	padding-top: 42px;
+	float: right;
+	max-width: 339px;
 }
