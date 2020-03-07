@@ -5,19 +5,20 @@ body{
 	margin-bottom: 0;
 	width: 1020px;
 	margin: auto;
-
 }
 
 #Get_a_Quote{
 	padding-top: 59px;
 	padding-left: 40px;
-	background: #f06c64;
 	height: 589px;
+
+	background: #f06c64;
 	border-bottom: 6px #ea676b solid;
 }
 
 #Get_a_Quote_header{
 	display: block;
+
 	font-family: Lato-Black;
 	font-size: 30px;
 	color: #f0d8d9;
@@ -26,6 +27,7 @@ body{
 #Get_a_Quote_text{
 	display: block;
 	padding-top: 18px;
+
 	font-family: Lato-Light;
 	font-size: 18px;
 	color: #f0d8d9;
@@ -40,7 +42,6 @@ body{
 }
 
 .Get_a_Quote_input{
-	outline: none;
 	margin-top: 16px;
 	height: 36px;
 
@@ -53,6 +54,8 @@ body{
 	font-size: 12px;
 	font-family: Lato-Regular;
 	color: #ffffff;
+
+	outline: none;
 }
 
 .Get_a_Quote_area{
@@ -70,12 +73,16 @@ body{
 }
 
 #submit{
-	background-color: #d6564f;
-	color: #f0d8d9;
-	text-decoration: none;
-	border-radius: 5px;
 	height: 50px;
 	width: 200px;
+
+
+	color: #f0d8d9;
+	text-decoration: none;
+
+	background-color: #d6564f;
+	border-radius: 5px;
+
 }
 
 #Get_a_Quote_text_right{
@@ -84,18 +91,20 @@ body{
 }
 
 #Get_a_Quote_text_right_2{
+	margin-top: 8px;
+
 	font-family: Lato-Regular;
 	font-size: 12px;
 	line-height: 21.7px;
-	margin-top: 8px;
 }
 
 #Get_a_Quote_text_right_div{
-	color: #f0d8d9;
 	padding-top: 42px;
 	padding-right: 40px;
 	float: right;
 	max-width: 300px;
+
+	color: #f0d8d9;
 }
 
 #location_img{
@@ -139,6 +148,7 @@ body{
 
 footer{
 	height: 76px;
+	
 	background: #2d303a;
 }
 
