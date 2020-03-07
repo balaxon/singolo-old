@@ -5,22 +5,25 @@ body{
 	margin-bottom: 0;
 	width: 1020px;
 	margin: auto;
-	background-color: #f06c64;
+
 }
 
-#footer{
+#Get_a_Quote{
 	padding-top: 59px;
 	padding-left: 40px;
+	background: #f06c64;
+	height: 589px;
+	border-bottom: 6px #ea676b solid;
 }
 
-#footer_header{
+#Get_a_Quote_header{
 	display: block;
 	font-family: Lato-Black;
 	font-size: 30px;
 	color: #f0d8d9;
 }
 
-#footer_text{
+#Get_a_Quote_text{
 	display: block;
 	padding-top: 18px;
 	font-family: Lato-Light;
@@ -30,55 +33,134 @@ body{
 	word-spacing: 1px;
 }
 
-#footer_form{
+#Get_a_Quote_form{
 	padding-top: 28px;
 	display: inline-block;
   max-width: 620px;
 }
 
-.footer_input{
+.Get_a_Quote_input{
 	outline: none;
 	margin-top: 16px;
 	height: 36px;
-	
+
 	border-radius: 5px;
-	width: 605px;
+	width: 604px;
 	border: 0px;
 	background-color: #d6564f;
-	
+
 	padding-left: 15px;
 	font-size: 12px;
 	font-family: Lato-Regular;
 	color: #ffffff;
 }
 
-.footer_area{
+.Get_a_Quote_area{
 	height: 190px;
 	padding-top: 10px;
-	width: 603px;
+	width: 602px;
 }
 
-.footer_input::-moz-placeholder{
+.Get_a_Quote_input::-moz-placeholder{
 	color: #f48c8f;
 }
 
-.footer_input::-webkit-input-placeholder{
+.Get_a_Quote_input::-webkit-input-placeholder{
 	color: #f48c8f;
 }
 
-#footer_text_right{
+#submit{
+	background-color: #d6564f;
+	color: #f0d8d9;
+	text-decoration: none;
+	border-radius: 5px;
+	height: 50px;
+	width: 200px;
+}
+
+#Get_a_Quote_text_right{
 	font-family: Lato-Black;
 	font-size: 18px;
 }
 
-#footer_text_right_2{
+#Get_a_Quote_text_right_2{
+	font-family: Lato-Regular;
+	font-size: 12px;
+	line-height: 21.7px;
+	margin-top: 8px;
+}
+
+#Get_a_Quote_text_right_div{
+	color: #f0d8d9;
+	padding-top: 42px;
+	padding-right: 40px;
+	float: right;
+	max-width: 300px;
+}
+
+#location_img{
+	padding-top: 16px;
+	padding-left: 3px;
+}
+
+#location_span{
+	padding-left: 13px;
+
 	font-family: Lato-Regular;
 	font-size: 12px;
 }
 
-#asdzxc{
-	color: #f0d8d9;
-	padding-top: 42px;
+#apercot{
+	margin: 0px;
+}
+
+#phone_img{
+	padding-top: 6px;
+	padding-left: 1px;
+}
+
+#phone_span{
+	padding-left: 11px;
+
+	font-family: Lato-Regular;
+	font-size: 12px;
+}
+
+#mail_img{
+	padding-top: 10px;
+}
+
+#mail_span{
+	padding-left: 10px;
+
+	font-family: Lato-Regular;
+	font-size: 12px;
+}
+
+footer{
+	height: 76px;
+	background: #2d303a;
+}
+
+#div_copy{
+	padding-top: 28px;
+	display: inline-block;
+}
+
+#copy{
+	padding-left: 42px;
+
+	color: #666d89;
+	font-family: Lato-Regular;
+	font-size: 12px;
+}
+
+#footer_icon{
+	padding-top: 22px;
+	padding-right: 40px;
 	float: right;
-	max-width: 339px;
+}
+
+.footer_icon_link{
+	padding-left: 4px;
 }
