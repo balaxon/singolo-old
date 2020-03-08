@@ -1,1 +1,1 @@
-singolo
+https://balaxon.github.io/singolo/

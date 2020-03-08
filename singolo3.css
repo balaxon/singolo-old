@@ -1,0 +1,176 @@
+body{
+	position: relative;
+
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 1020px;
+	margin: auto;
+}
+
+#Get_a_Quote{
+	padding-top: 59px;
+	padding-left: 40px;
+	height: 589px;
+
+	background: #f06c64;
+	border-bottom: 6px #ea676b solid;
+}
+
+#Get_a_Quote_header{
+	display: block;
+
+	font-family: Lato-Black;
+	font-size: 30px;
+	color: #f0d8d9;
+}
+
+#Get_a_Quote_text{
+	display: block;
+	padding-top: 18px;
+
+	font-family: Lato-Light;
+	font-size: 18px;
+	color: #f0d8d9;
+	line-height: 30px;
+	word-spacing: 1px;
+}
+
+#Get_a_Quote_form{
+	padding-top: 28px;
+	display: inline-block;
+  max-width: 620px;
+}
+
+.Get_a_Quote_input{
+	margin-top: 16px;
+	height: 36px;
+
+	border-radius: 5px;
+	width: 604px;
+	border: 0px;
+	background-color: #d6564f;
+
+	padding-left: 15px;
+	font-size: 12px;
+	font-family: Lato-Regular;
+	color: #ffffff;
+
+	outline: none;
+}
+
+.Get_a_Quote_area{
+	height: 190px;
+	padding-top: 10px;
+	width: 602px;
+}
+
+.Get_a_Quote_input::-moz-placeholder{
+	color: #f48c8f;
+}
+
+.Get_a_Quote_input::-webkit-input-placeholder{
+	color: #f48c8f;
+}
+
+#submit{
+	height: 50px;
+	width: 200px;
+
+
+	color: #f0d8d9;
+	text-decoration: none;
+
+	background-color: #d6564f;
+	border-radius: 5px;
+
+}
+
+#Get_a_Quote_text_right{
+	font-family: Lato-Black;
+	font-size: 18px;
+}
+
+#Get_a_Quote_text_right_2{
+	margin-top: 8px;
+
+	font-family: Lato-Regular;
+	font-size: 12px;
+	line-height: 21.7px;
+}
+
+#Get_a_Quote_text_right_div{
+	padding-top: 42px;
+	padding-right: 40px;
+	float: right;
+	max-width: 300px;
+
+	color: #f0d8d9;
+}
+
+#location_img{
+	padding-top: 16px;
+	padding-left: 3px;
+}
+
+#location_span{
+	padding-left: 13px;
+
+	font-family: Lato-Regular;
+	font-size: 12px;
+}
+
+#apercot{
+	margin: 0px;
+}
+
+#phone_img{
+	padding-top: 6px;
+	padding-left: 1px;
+}
+
+#phone_span{
+	padding-left: 11px;
+
+	font-family: Lato-Regular;
+	font-size: 12px;
+}
+
+#mail_img{
+	padding-top: 10px;
+}
+
+#mail_span{
+	padding-left: 10px;
+
+	font-family: Lato-Regular;
+	font-size: 12px;
+}
+
+footer{
+	height: 76px;
+	
+	background: #2d303a;
+}
+
+#div_copy{
+	padding-top: 28px;
+	display: inline-block;
+}
+
+#copy{
+	padding-left: 42px;
+
+	color: #666d89;
+	font-family: Lato-Regular;
+	font-size: 12px;
+}
+
+#footer_icon{
+	padding-top: 22px;
+	padding-right: 40px;
+	float: right;
+}
+
+.footer_icon_link{
+	padding-left: 4px;
+}
