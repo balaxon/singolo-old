@@ -91,6 +91,7 @@ h1{
   position: absolute;
   left: 112px;
   top: 148px;
+  z-index: 48;
 
   width: 240px;
   height: 483px;
@@ -102,18 +103,22 @@ h1{
   position: absolute;
   left: 112px;
   top: 148px;
+  z-index: 49;
 }
 
 .screen_vertical{
   position: absolute;
   left: 126px;
   top: 213px;
+  z-index: 50;
 }
 
 .shadow_horizontal {
   position: absolute;
   left: 548px;
   top: 148px;
+	z-index: 38;
+
   width: 240px;
   height: 483px;
 
@@ -125,6 +130,7 @@ h1{
   position: absolute;
   left: 547px;
   top: 148px;
+	z-index: 39;
 
   transform: rotate(90deg);
 }
@@ -133,6 +139,7 @@ h1{
   position: absolute;
   left: 485px;
   top: 283px;
+  z-index: 40;
 }
 
 .our_services{
@@ -335,10 +342,15 @@ h1{
 	padding-left: -1px;
 	padding-top: 11px;
 	display: block;
+	width: 300px;
+	height: 22px;
 
 	color: #666d89;
 	font-size: 18px;
 	font-family: Lato-Black;
+	white-space: nowrap;
+
+	overflow: hidden;
 }
 
 .aboutus_about{
