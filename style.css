@@ -684,7 +684,8 @@ footer{
 	display: block;
 	padding-left: 40px;
 	padding-top: 17px;
-	width: 400px;
+	width: 500px;
+	max-height: 150px;
 	overflow: hidden;
 
 	line-height: 30px;
@@ -704,4 +705,9 @@ footer{
 
 #model_submit:hover{
 	cursor: pointer;
+}
+
+.footer_link{
+	text-decoration: none;
+	color: #f0d8d9;
 }

@@ -34,7 +34,7 @@
     <div id="slide_2" style="display: none;">
       <div id="phone_1">
         <img class="small_shadow_1" src="assets/slide2/small_phone-vertical-shadow.png" alt="">
-        <img class="small_photo_1" src="assets/slide2/small_phone-vertical.png" alt="" onclick="screenOpacity(this)">
+        <img class="small_photo_1" src="assets/slide2/small_phone-vertical.png" alt="">
         <img class="small_display_1" src="assets/slide2/small_phone-vertical-display.png" alt="" style="filter: brightness(100%);">
       </div>
       <div id="phone_2">
@@ -44,7 +44,7 @@
       </div>
       <div id="phone_3">
         <img class="small_shadow_2" src="assets/slide2/small_phone-vertical-shadow.png" alt="">
-        <img class="small_photo_2" src="assets/slide2/small_phone-vertical.png" alt="" onclick="screenOpacity(this)">
+        <img class="small_photo_2" src="assets/slide2/small_phone-vertical.png" alt="">
         <img class="small_display_2" src="assets/slide2/small_phone-vertical-display.png" alt="" style="filter: brightness(100%);">
       </div>
     </div>
@@ -158,16 +158,16 @@
         <form id="Get_a_Quote_form" action="" onsubmit="send_form(); return false;">
           <input required id="text_name" class="Get_a_Quote_input" type="text" name="" placeholder="Name (Required)" Required>
           <input required class="Get_a_Quote_input" type="email" id="text_email" placeholder="Email (Required)" Required>
-          <input class="Get_a_Quote_input" type="text" id="text_subject" placeholder="Subject">
-          <textarea class="Get_a_Quote_input Get_a_Quote_area" id="text_textarea" placeholder="Describe your project in detail..."></textarea>
+          <input class="Get_a_Quote_input" type="text" id="text_subject" placeholder="Subject" maxlength="100">
+          <textarea class="Get_a_Quote_input Get_a_Quote_area" id="text_textarea" placeholder="Describe your project in detail..." maxlength="250"></textarea>
           <input id="submit" type="submit" name="submit" value="Submit">
         </form>
         <div id="Get_a_Quote_text_right_div">
         <span id="Get_a_Quote_text_right">Contact Information</span>
         <p id="Get_a_Quote_text_right_2">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
-        <a href="https://www.google.ru/maps/space/mercury/@5.7364375,-88.819454,8216877m/data=!3m1!1e3"><img src="assets/location.png" id="location_img"></a><span id="location_span">Elm St. 14/05 Lost City</span>
-        <p id="apercot"><a href="tel:+035283318635"><img src="assets/phone.png" id="phone_img"></a><span id="phone_span">03528 331 86 35</span></p>
-        <a href="mailto:info@singolo.com"><img src="assets/mail.png" id="mail_img"></a><span id="mail_span">info@singolo.com</span>
+        <a href="https://www.google.ru/maps/space/mercury/@5.7364375,-88.819454,8216877m/data=!3m1!1e3" class="footer_link"><img src="assets/location.png" id="location_img"><span id="location_span">Elm St. 14/05 Lost City</span></a>
+        <p id="apercot"><a href="tel:+035283318635" class="footer_link"><img src="assets/phone.png" id="phone_img"><span id="phone_span">03528 331 86 35</span></a></p>
+        <a href="mailto:info@singolo.com" class="footer_link"><img src="assets/mail.png" id="mail_img"><span id="mail_span">info@singolo.com</span></a>
       </div>
     </div>
     <div id="model_window" style="display: none;">

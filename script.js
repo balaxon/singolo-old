@@ -16,11 +16,11 @@ window.onscroll = function() {
       document.querySelectorAll('.toplink').forEach(el => el.classList.remove('home'));
       document.querySelectorAll('.toplink')[2].classList.add('home');
     }
-    if (scrollTop > 1970 && scrollTop < 2700) {
+    if (scrollTop > 1970 && scrollTop < 2500) {
       document.querySelectorAll('.toplink').forEach(el => el.classList.remove('home'));
       document.querySelectorAll('.toplink')[3].classList.add('home');
     }
-    if (scrollTop > 2700 && scrollTop < 3200) {
+    if (scrollTop > 2500 && scrollTop < 3200) {
       document.querySelectorAll('.toplink').forEach(el => el.classList.remove('home'));
       document.querySelectorAll('.toplink')[4].classList.add('home');
     }
