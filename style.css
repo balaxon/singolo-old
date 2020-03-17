@@ -7,8 +7,19 @@ body{
 	margin: auto;
 }
 
+<<<<<<< HEAD
 nav{
   height: 89px;
+=======
+header{
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+}
+
+nav{
+  	height: 89px;
+>>>>>>> DOM
 
 	background-color: #2d303a;
 	border-bottom: 6px #323746 solid;
@@ -25,6 +36,16 @@ h1{
 	font-family: Lato-Bold;
 }
 
+<<<<<<< HEAD
+=======
+a.an{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+>>>>>>> DOM
 #asterisk{
   margin: 0;
 
@@ -40,6 +61,13 @@ h1{
 	display: inline-block;
 }
 
+<<<<<<< HEAD
+=======
+.visit{
+	color: #f06c64;
+}
+
+>>>>>>> DOM
 .toplink{
 	color: white;
 	font-size: 11.5px;
@@ -48,7 +76,11 @@ h1{
 }
 
 .toplink:hover{
+<<<<<<< HEAD
 	pointer: cursor;
+=======
+	cursor: pointer;
+>>>>>>> DOM
 }
 
 .toplink:active{
@@ -68,13 +100,19 @@ h1{
 	color: #f06c64;
 }
 
+<<<<<<< HEAD
 .slider{
   height: 594px;
 
+=======
+#slide_1{
+	height: 594px;
+>>>>>>> DOM
 	background: #f06c64;
 	border-bottom: 6px #ea676b solid;
 }
 
+<<<<<<< HEAD
 .left{
 	margin-left: 42px;
 	margin-top: 280px;
@@ -85,6 +123,24 @@ h1{
 	margin-right: 40px;
 	margin-top: 280px;
 	display: inline-block;
+=======
+#slide_2{
+	height: 600px;
+	background: #648BF0;
+}
+
+.left{
+	position: absolute;
+	top: 375px;
+	left: 42px;
+
+}
+
+.right{
+	position: absolute;
+	top: 375px;
+	left: 965px;
+>>>>>>> DOM
 }
 
 .shadow_vertical{
@@ -111,6 +167,11 @@ h1{
   left: 126px;
   top: 213px;
   z-index: 50;
+<<<<<<< HEAD
+=======
+  transition: 0.8s;
+
+>>>>>>> DOM
 }
 
 .shadow_horizontal {
@@ -140,6 +201,86 @@ h1{
   left: 485px;
   top: 283px;
   z-index: 40;
+<<<<<<< HEAD
+=======
+
+  transition: 0.8s;
+}
+
+#phone_1{
+	position: absolute;
+	opacity: 0.5;
+}
+
+.small_shadow_1{
+	position: absolute;
+	top: 152px;
+	left: 252px;
+}
+
+.small_photo_1{
+	position: absolute;
+	top: 152px;
+	left: 252px;
+}
+
+.small_display_1{
+	position: absolute;
+	top: 194.26px;
+	left: 261.1px;
+	transition: 0.8s;
+}
+
+#phone_2{
+	position: absolute;
+}
+
+.phone_shadow{
+	position: absolute;
+	top: 43px;
+	left: 383px;
+}
+
+.phone_photo{
+	position: absolute;
+	top: 43px;
+	left: 382.47px;
+}
+
+.phone_display{
+	position: absolute;
+	top: 112.04px;
+	left: 397.87px;
+	transition: 0.8s;
+}
+
+#phone_3{
+	position: absolute;
+	opacity: 0.5;
+}
+
+.small_shadow_2{
+	position: absolute;
+	top: 152px;
+	left: 612.16px;
+}
+
+.small_photo_2{
+	position: absolute;
+	top: 152px;
+	left: 611.83px;
+}
+
+.small_display_2{
+	position: absolute;
+	top: 194.26px;
+	left: 621.26px;
+	transition: 0.8s;
+}
+
+.visibil{
+	filter: brightness(1);
+>>>>>>> DOM
 }
 
 .our_services{
@@ -217,7 +358,11 @@ h1{
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 #portfolio{
+=======
+.portfolio{
+>>>>>>> DOM
 	height: 864px;
 
 	background-color: #2d303a;
@@ -270,7 +415,11 @@ h1{
 }
 
 .portfolio_link:hover{
+<<<<<<< HEAD
 	pointer: cursor;
+=======
+	cursor: pointer;
+>>>>>>> DOM
 }
 
 .portfolio_link:active{
@@ -278,13 +427,24 @@ h1{
 	color: red;
 }
 
+<<<<<<< HEAD
+=======
+.portfolio_border_red{
+	outline:solid 5px #F06C64;
+}
+
+>>>>>>> DOM
 .link_all{
 	color: white;
 
 	border-color: rgb(197, 197, 197);
 }
 
+<<<<<<< HEAD
 .portfolio_div_img{
+=======
+#portfolio_div_img{
+>>>>>>> DOM
 	padding-top: 22px;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -294,6 +454,7 @@ h1{
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   max-height: 610px;
+<<<<<<< HEAD
 
   overflow: hidden;
 }
@@ -301,6 +462,20 @@ h1{
 #aboutus{
 	height: 728px;
 
+=======
+  -webkit-font-smoothing: antialiased;
+  transition: 0.8s;
+  overflow: hidden;
+}
+
+.portfolio_img{
+	-webkit-font-smoothing: antialiased;
+	transition: 0.8s;
+}
+
+.aboutus{
+	height: 728px;
+>>>>>>> DOM
 	background-color: #f2f2f2;
 	border-bottom: 6px #ffffff solid;
 }
@@ -372,7 +547,11 @@ h1{
 }
 
 .aboutus_icon_link:hover{
+<<<<<<< HEAD
 	pointer: cursor;
+=======
+	cursor: pointer;
+>>>>>>> DOM
 }
 
 .aboutus_icon_link:active{
@@ -380,7 +559,11 @@ h1{
 	color: red;
 }
 
+<<<<<<< HEAD
 #Get_a_Quote{
+=======
+.Get_a_Quote{
+>>>>>>> DOM
 	padding-top: 59px;
 	padding-left: 40px;
 	height: 589px;
@@ -458,6 +641,13 @@ h1{
 
 }
 
+<<<<<<< HEAD
+=======
+#submit:hover{
+	cursor: pointer;
+}
+
+>>>>>>> DOM
 #Get_a_Quote_text_right{
 	font-family: Lato-Black;
 	font-size: 18px;
@@ -547,3 +737,56 @@ footer{
 .footer_icon_link{
 	padding-left: 4px;
 }
+<<<<<<< HEAD
+=======
+
+#model_window{
+	position: absolute;
+	top: 3000px;
+	left: 210px;
+	width: 600px;
+	height: 400px;
+	background: #ffffff;
+	z-index: 151;
+}
+
+.layout{
+	background: rgba(0,0,0,.5);
+	width:100%;
+    height:100%;
+    position:absolute;
+    z-index:150
+}
+
+.model_window_text{
+	display: block;
+	padding-left: 40px;
+	padding-top: 17px;
+	width: 500px;
+	max-height: 150px;
+	overflow: hidden;
+
+	line-height: 30px;
+	word-spacing: 1px;
+	color: #000000;
+	font-size: 18px;
+	font-family: Lato-Light;
+
+}
+
+#model_submit{
+	position: absolute;
+	width: 100px;
+	bottom: 20px;
+	left: 250px;
+}
+
+#model_submit:hover{
+	cursor: pointer;
+}
+
+.footer_link{
+	text-decoration: none;
+	color: #f0d8d9;
+}
+>>>>>>> DOM

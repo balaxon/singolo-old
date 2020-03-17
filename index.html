@@ -5,6 +5,7 @@
   	<title>Singolo</title>
   	<link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font.css">
+<<<<<<< HEAD
   </head>
   <body>
     <header>
@@ -30,6 +31,54 @@
       <a href=""><img class="right" src="assets/Right.png"></a>
     </div>
     <div class="our_services">
+=======
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div id="opas"></div>
+    <header>
+      <a id="top"></a>
+      <nav>
+        <h1>SINGOLO<span id="asterisk">*</span></h1>
+        <div id="topmenu">
+          <a class="toplink home" onclick="topm(this)" href="#top">HOME</a>
+          <a class="toplink" onclick="topm(this)" href="#serv">SERVICES</a>
+          <a class="toplink" onclick="topm(this)" href="#port">PORTFOLIO</a>
+          <a class="toplink" onclick="topm(this)" href="#ab">ABOUT</a>
+          <a class="toplink" onclick="topm(this)" href="#con">CONTACT</a>
+      </div>
+      </nav>
+    </header>
+    <a href="##" onclick="nextSlide()"><img class="left" src="assets/Left.png" ></a>
+    <div id="slide_1" style="display: block;">
+      <img class="shadow_vertical" src="assets/slide1/Shadow.png">
+      <img class="smartphone_vertical" src="assets/slide1/Smartphone.png" onclick="screenOpacity(this)">
+      <img class="screen_vertical" src="assets/slide1/Vertical_screen.png" style="filter: brightness(100%);">
+      <img class="shadow_horizontal" src="assets/slide1/Shadow.png">
+      <img class="smartphone_horizontal" src="assets/slide1/Smartphone.png" onclick="screenOpacity(this)">
+      <img class="screen_horizontal" src="assets/slide1/Horizontal_screen.png" style="filter: brightness(100%);">
+    </div>
+    <div id="slide_2" style="display: none;">
+      <div id="phone_1">
+        <img class="small_shadow_1" src="assets/slide2/small_phone-vertical-shadow.png" alt="">
+        <img class="small_photo_1" src="assets/slide2/small_phone-vertical.png" alt="">
+        <img class="small_display_1" src="assets/slide2/small_phone-vertical-display.png" alt="" style="filter: brightness(100%);">
+      </div>
+      <div id="phone_2">
+        <img class="phone_shadow" src="assets/slide2/phone-vertical-shadow.png" alt="">
+        <img class="phone_photo" src="assets/slide2/phone-vertical.png" alt="" onclick="screenOpacity(this)">
+        <img class="phone_display" src="assets/slide2/phone-vertical-display.png" alt="" style="filter: brightness(100%);">
+      </div>
+      <div id="phone_3">
+        <img class="small_shadow_2" src="assets/slide2/small_phone-vertical-shadow.png" alt="">
+        <img class="small_photo_2" src="assets/slide2/small_phone-vertical.png" alt="">
+        <img class="small_display_2" src="assets/slide2/small_phone-vertical-display.png" alt="" style="filter: brightness(100%);">
+      </div>
+    </div>
+    <a href="##" onclick="nextSlide()"><img class="right" src="assets/Right.png"></a>
+    <div class="our_services">
+      <a id="serv" class="an"></a>
+>>>>>>> DOM
       <span class="our_services_header">Our Services</span>
       <span class="fusce">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span>
       <div class="container">
@@ -65,6 +114,7 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
     <div id="portfolio">
       <span id="portfolio_header">Portfolio</span>
       <span id="portfolio_text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
@@ -90,6 +140,35 @@
       </div>
     </div>
     <div id="aboutus">
+=======
+    <div class="portfolio">
+      <a id="port" class="an"></a>
+      <span id="portfolio_header">Portfolio</span>
+      <span id="portfolio_text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
+      <div id="portfolio_menu">
+        <a class="portfolio_link link_all" onclick="portfoli(this);all_img()" href="##">All</a>
+        <a class="portfolio_link" onclick="portfoli(this);webdesign()" href="##">Web Design</a>
+        <a class="portfolio_link" onclick="portfoli(this);graphicdesign()" href="##">Graphic Design</a>
+        <a class="portfolio_link" onclick="portfoli(this);artwork()" href="##">Artwork</a>
+      </div>
+      <div id="portfolio_div_img">
+        <img class="portfolio_img" src="assets/1-1.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/1-2.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/1-3.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/1-4.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/2-1.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/2-2.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/2-3.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/2-4.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/3-1.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/3-2.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/3-3.png" onclick="portfolio_border(this)" style="display: block;">
+        <img class="portfolio_img" src="assets/3-4.png" onclick="portfolio_border(this)" style="display: block;">
+      </div>
+    </div>
+    <div class="aboutus">
+      <a id="ab" class="an"></a>
+>>>>>>> DOM
       <span id="aboutus_header">About Us</span>
       <span id="aboutus_text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span>
       <div id="aboutus_container">
@@ -128,6 +207,7 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
     <div id="Get_a_Quote">
       <span id="Get_a_Quote_header">Get a Quote</span>
       <span id="Get_a_Quote_text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span>
@@ -136,16 +216,41 @@
           <input required class="Get_a_Quote_input" type="email" name="" placeholder="Email (Required)" Required>
           <input class="Get_a_Quote_input" type="text" name="" placeholder="Subject">
           <textarea class="Get_a_Quote_input Get_a_Quote_area" placeholder="Describe your project in detail..."></textarea>
+=======
+    <div class="Get_a_Quote">
+      <a id="con" class="an"></a>
+      <span id="Get_a_Quote_header">Get a Quote</span>
+      <span id="Get_a_Quote_text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span>
+        <form id="Get_a_Quote_form" action="" onsubmit="send_form(); return false;">
+          <input required id="text_name" class="Get_a_Quote_input" type="text" name="" placeholder="Name (Required)" Required>
+          <input required class="Get_a_Quote_input" type="email" id="text_email" placeholder="Email (Required)" Required>
+          <input class="Get_a_Quote_input" type="text" id="text_subject" placeholder="Subject" maxlength="100">
+          <textarea class="Get_a_Quote_input Get_a_Quote_area" id="text_textarea" placeholder="Describe your project in detail..." maxlength="250"></textarea>
+>>>>>>> DOM
           <input id="submit" type="submit" name="submit" value="Submit">
         </form>
         <div id="Get_a_Quote_text_right_div">
         <span id="Get_a_Quote_text_right">Contact Information</span>
         <p id="Get_a_Quote_text_right_2">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
+<<<<<<< HEAD
         <a href="https://www.google.ru/maps/space/mercury/@5.7364375,-88.819454,8216877m/data=!3m1!1e3"><img src="assets/location.png" id="location_img"></a><span id="location_span">Elm St. 14/05 Lost City</span>
         <p id="apercot"><a href="tel:+035283318635"><img src="assets/phone.png" id="phone_img"></a><span id="phone_span">03528 331 86 35</span></p>
         <a href="mailto:info@singolo.com"><img src="assets/mail.png" id="mail_img"></a><span id="mail_span">info@singolo.com</span>
       </div>
     </div>
+=======
+        <a href="https://www.google.ru/maps/space/mercury/@5.7364375,-88.819454,8216877m/data=!3m1!1e3" class="footer_link"><img src="assets/location.png" id="location_img"><span id="location_span">Elm St. 14/05 Lost City</span></a>
+        <p id="apercot"><a href="tel:+035283318635" class="footer_link"><img src="assets/phone.png" id="phone_img"><span id="phone_span">03528 331 86 35</span></a></p>
+        <a href="mailto:info@singolo.com" class="footer_link"><img src="assets/mail.png" id="mail_img"><span id="mail_span">info@singolo.com</span></a>
+      </div>
+    </div>
+    <div id="model_window" style="display: none;">
+      <p class="model_window_text"></p>
+      <p class="model_window_text"></p>
+      <p class="model_window_text"></p>
+      <input id="model_submit" type="button" value="OK" onclick="mod_sub()">
+    </div>
+>>>>>>> DOM
     <footer>
       <div id="div_copy"><span id="copy">© Copyright 2013</span></div>
       <div id="footer_icon">
@@ -155,5 +260,9 @@
         <a href="" class="footer_icon_link"><img src="assets/linkedin.png"></a>
       </div>
     </footer>
+<<<<<<< HEAD
+=======
+
+>>>>>>> DOM
   </body>
 </html>
