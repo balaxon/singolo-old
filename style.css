@@ -7,10 +7,6 @@ body{
 	margin: auto;
 }
 
-<<<<<<< HEAD
-nav{
-  height: 89px;
-=======
 header{
 	position: sticky;
 	top: 0px;
@@ -19,7 +15,6 @@ header{
 
 nav{
   	height: 89px;
->>>>>>> DOM
 
 	background-color: #2d303a;
 	border-bottom: 6px #323746 solid;
@@ -36,8 +31,6 @@ h1{
 	font-family: Lato-Bold;
 }
 
-<<<<<<< HEAD
-=======
 a.an{
     display: block;
     position: relative;
@@ -45,7 +38,6 @@ a.an{
     visibility: hidden;
 }
 
->>>>>>> DOM
 #asterisk{
   margin: 0;
 
@@ -61,13 +53,10 @@ a.an{
 	display: inline-block;
 }
 
-<<<<<<< HEAD
-=======
 .visit{
 	color: #f06c64;
 }
 
->>>>>>> DOM
 .toplink{
 	color: white;
 	font-size: 11.5px;
@@ -76,11 +65,7 @@ a.an{
 }
 
 .toplink:hover{
-<<<<<<< HEAD
-	pointer: cursor;
-=======
 	cursor: pointer;
->>>>>>> DOM
 }
 
 .toplink:active{
@@ -100,30 +85,12 @@ a.an{
 	color: #f06c64;
 }
 
-<<<<<<< HEAD
-.slider{
-  height: 594px;
-
-=======
 #slide_1{
 	height: 594px;
->>>>>>> DOM
 	background: #f06c64;
 	border-bottom: 6px #ea676b solid;
 }
 
-<<<<<<< HEAD
-.left{
-	margin-left: 42px;
-	margin-top: 280px;
-}
-
-.right{
-	float: right;
-	margin-right: 40px;
-	margin-top: 280px;
-	display: inline-block;
-=======
 #slide_2{
 	height: 600px;
 	background: #648BF0;
@@ -140,7 +107,6 @@ a.an{
 	position: absolute;
 	top: 375px;
 	left: 965px;
->>>>>>> DOM
 }
 
 .shadow_vertical{
@@ -167,11 +133,8 @@ a.an{
   left: 126px;
   top: 213px;
   z-index: 50;
-<<<<<<< HEAD
-=======
   transition: 0.8s;
 
->>>>>>> DOM
 }
 
 .shadow_horizontal {
@@ -201,8 +164,6 @@ a.an{
   left: 485px;
   top: 283px;
   z-index: 40;
-<<<<<<< HEAD
-=======
 
   transition: 0.8s;
 }
@@ -280,7 +241,6 @@ a.an{
 
 .visibil{
 	filter: brightness(1);
->>>>>>> DOM
 }
 
 .our_services{
@@ -358,11 +318,7 @@ a.an{
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-#portfolio{
-=======
 .portfolio{
->>>>>>> DOM
 	height: 864px;
 
 	background-color: #2d303a;
@@ -415,11 +371,7 @@ a.an{
 }
 
 .portfolio_link:hover{
-<<<<<<< HEAD
-	pointer: cursor;
-=======
 	cursor: pointer;
->>>>>>> DOM
 }
 
 .portfolio_link:active{
@@ -427,24 +379,17 @@ a.an{
 	color: red;
 }
 
-<<<<<<< HEAD
-=======
 .portfolio_border_red{
 	outline:solid 5px #F06C64;
 }
 
->>>>>>> DOM
 .link_all{
 	color: white;
 
 	border-color: rgb(197, 197, 197);
 }
 
-<<<<<<< HEAD
-.portfolio_div_img{
-=======
 #portfolio_div_img{
->>>>>>> DOM
 	padding-top: 22px;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -454,15 +399,6 @@ a.an{
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   max-height: 610px;
-<<<<<<< HEAD
-
-  overflow: hidden;
-}
-
-#aboutus{
-	height: 728px;
-
-=======
   -webkit-font-smoothing: antialiased;
   transition: 0.8s;
   overflow: hidden;
@@ -475,7 +411,6 @@ a.an{
 
 .aboutus{
 	height: 728px;
->>>>>>> DOM
 	background-color: #f2f2f2;
 	border-bottom: 6px #ffffff solid;
 }
@@ -547,11 +482,7 @@ a.an{
 }
 
 .aboutus_icon_link:hover{
-<<<<<<< HEAD
-	pointer: cursor;
-=======
 	cursor: pointer;
->>>>>>> DOM
 }
 
 .aboutus_icon_link:active{
@@ -559,11 +490,7 @@ a.an{
 	color: red;
 }
 
-<<<<<<< HEAD
-#Get_a_Quote{
-=======
 .Get_a_Quote{
->>>>>>> DOM
 	padding-top: 59px;
 	padding-left: 40px;
 	height: 589px;
@@ -641,13 +568,10 @@ a.an{
 
 }
 
-<<<<<<< HEAD
-=======
 #submit:hover{
 	cursor: pointer;
 }
 
->>>>>>> DOM
 #Get_a_Quote_text_right{
 	font-family: Lato-Black;
 	font-size: 18px;
@@ -737,8 +661,6 @@ footer{
 .footer_icon_link{
 	padding-left: 4px;
 }
-<<<<<<< HEAD
-=======
 
 #model_window{
 	position: absolute;
@@ -789,4 +711,3 @@ footer{
 	text-decoration: none;
 	color: #f0d8d9;
 }
->>>>>>> DOM
