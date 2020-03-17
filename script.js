@@ -58,16 +58,11 @@ function portfolio_border(we) {
 }
 
 function all_img() {
-  // alert("asd");
   document.getElementById('portfolio_div_img').querySelectorAll('img').forEach(el => el.style.display="block");
 }
 
 function webdesign() {
   document.getElementById('portfolio_div_img').querySelectorAll('img').forEach(el => el.style.display="none");
-  // for (let i = 0; i < getRandomInt(13); i++) {
-  // alert(getRandomInt(1, 12));
-  // document.getElementById('portfolio_div_img').querySelectorAll('img')[getRandomInt(13)].style.display="block";
-  // }
   document.getElementById('portfolio_div_img').querySelectorAll('img')[0].style.display="block";
   document.getElementById('portfolio_div_img').querySelectorAll('img')[6].style.display="block";
   document.getElementById('portfolio_div_img').querySelectorAll('img')[8].style.display="block";
