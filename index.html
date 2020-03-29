@@ -12,18 +12,23 @@
     <header>
       <a id="top"></a>
       <nav>
-        <h1>SINGOLO<span id="asterisk">*</span></h1>
-        <div id="topmenu">
+        <a href="##"  onclick="showmenu()"><img id="qwe" src="assets/Burger-menu-icon.png" alt=""></a>
+        <h1 id="he">SINGOLO<span id="asterisk">*</span></h1>
+        <div id="topmenu" >
+          <div id="as">
           <a class="toplink home" onclick="topm(this)" href="#top">HOME</a>
           <a class="toplink" onclick="topm(this)" href="#serv">SERVICES</a>
           <a class="toplink" onclick="topm(this)" href="#port">PORTFOLIO</a>
           <a class="toplink" onclick="topm(this)" href="#ab">ABOUT</a>
           <a class="toplink" onclick="topm(this)" href="#con">CONTACT</a>
-      </div>
+          </div>
+        </div>
       </nav>
+
     </header>
-    <a href="##" onclick="nextSlide()"><img class="left" src="assets/Left.png" ></a>
-    <div id="slide_1" style="display: block;">
+    <div class="hiding-parent">
+    <a href="##" onclick="nextSlideLeft()"><img class="left" src="assets/Left.png" ></a>
+    <div id="slide_1" class="aa" style="margin-left: 0px;">
       <img class="shadow_vertical" src="assets/slide1/Shadow.png">
       <img class="smartphone_vertical" src="assets/slide1/Smartphone.png" onclick="screenOpacity(this)">
       <img class="screen_vertical" src="assets/slide1/Vertical_screen.png" style="filter: brightness(100%);">
@@ -31,7 +36,7 @@
       <img class="smartphone_horizontal" src="assets/slide1/Smartphone.png" onclick="screenOpacity(this)">
       <img class="screen_horizontal" src="assets/slide1/Horizontal_screen.png" style="filter: brightness(100%);">
     </div>
-    <div id="slide_2" style="display: none;">
+    <!-- <div id="slide_2" class="aa" style="margin-left: -1020px;">
       <div id="phone_1">
         <img class="small_shadow_1" src="assets/slide2/small_phone-vertical-shadow.png" alt="">
         <img class="small_photo_1" src="assets/slide2/small_phone-vertical.png" alt="">
@@ -47,8 +52,10 @@
         <img class="small_photo_2" src="assets/slide2/small_phone-vertical.png" alt="">
         <img class="small_display_2" src="assets/slide2/small_phone-vertical-display.png" alt="" style="filter: brightness(100%);">
       </div>
-    </div>
-    <a href="##" onclick="nextSlide()"><img class="right" src="assets/Right.png"></a>
+    </div> -->
+    <div id="slide_2" class="aa" style="margin-left: -1020px;"><img id="slider2" src="assets/slide2/Slider.jpg" alt=""></div>
+    <a href="##" onclick="nextSlideRight()"><img class="right" src="assets/Right.png"></a>
+  </div>
     <div class="our_services">
       <a id="serv" class="an"></a>
       <span class="our_services_header">Our Services</span>
@@ -117,7 +124,7 @@
       <span id="aboutus_text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span>
       <div id="aboutus_container">
         <div class="aboutus_people">
-          <img src="assets/adam.png">
+          <img class="img_people" src="assets/adam.png">
           <span class="aboutus_name">Adam Jensen</span>
           <span class="aboutus_about">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</span>
           <div class="aboutus_icon">
@@ -128,7 +135,7 @@
           </div>
         </div>
         <div class="aboutus_people">
-          <img src="assets/desmond.png">
+          <img class="img_people" src="assets/desmond.png">
           <span class="aboutus_name">Desmond Miles</span>
           <span class="aboutus_about">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</span>
           <div class="aboutus_icon">
@@ -139,7 +146,7 @@
           </div>
         </div>
         <div class="aboutus_people">
-          <img src="assets/scolara.png">
+          <img class="img_people" src="assets/scolara.png">
           <span class="aboutus_name">Scolara Visari</span>
           <span class="aboutus_about">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</span>
           <div class="aboutus_icon">
@@ -155,6 +162,7 @@
       <a id="con" class="an"></a>
       <span id="Get_a_Quote_header">Get a Quote</span>
       <span id="Get_a_Quote_text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span>
+      <div id="grid_get">
         <form id="Get_a_Quote_form" action="" onsubmit="send_form(); return false;">
           <input required id="text_name" class="Get_a_Quote_input" type="text" name="" placeholder="Name (Required)" Required>
           <input required class="Get_a_Quote_input" type="email" id="text_email" placeholder="Email (Required)" Required>
@@ -169,6 +177,7 @@
         <p id="apercot"><a href="tel:+035283318635" class="footer_link"><img src="assets/phone.png" id="phone_img"><span id="phone_span">03528 331 86 35</span></a></p>
         <a href="mailto:info@singolo.com" class="footer_link"><img src="assets/mail.png" id="mail_img"><span id="mail_span">info@singolo.com</span></a>
       </div>
+    </div>
     </div>
     <div id="model_window" style="display: none;">
       <p class="model_window_text"></p>
